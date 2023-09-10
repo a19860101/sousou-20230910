@@ -29,10 +29,18 @@ nav {
 .nav-menu {
     margin-left: auto;
     display: flex;
-    gap:15px;
+    /* gap:15px; */
+    background-color: chartreuse;
+    border-radius: 30px;
 }
 .nav-link {
     font-size: 14px;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+.nav-link:hover {
+    color: crimson;
+    background-color: #ccc;
 }
 nav a {
     color: #000;
