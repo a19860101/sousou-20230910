@@ -1,0 +1,105 @@
+<!DOCTYPE html> <!-- 文件類型宣告  版本 HTML5 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 內部樣式 -->
+    <style>
+        * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  color: #098;
+  background-color: #ccc;
+  width: fit-content;
+  padding: 20px;
+  text-align: center;
+/*   margin-right: auto; */
+/*   margin-left: auto; */
+  
+/*   margin: auto; */
+/*   margin: 0 auto; */
+    margin-inline: auto;
+  
+  
+}
+.products {
+  background-color: pink;
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-item {
+  width: calc(100% / 3);
+  padding: 10px;
+  text-align: right;
+  direction: ltr;
+}
+.product-item img {
+  aspect-ratio:16 / 9;
+  object-fit: cover;
+}
+img {
+  width: 100%;
+}
+/*  
+  padding
+  padding-left
+  padding-right
+  padding-top
+  padding-bottom
+
+  padding: 10px; 上下左右
+  padding: 10px 20px; 上下 左右
+  padding: 10px 30px 0; 上 左右 下
+  padding: 10px 0px 34px 99px; 上 右 下 左
+
+  padding-inline:;
+  padding-inline-start:;
+  padding-inline-end:;
+  padding-block:;
+  padding-block-start:;
+  padding-block-end:;
+*/
+
+    </style>
+</head>
+<body>
+    <nav></nav>
+<header></header>
+<main>
+  <section>
+    <h2>最新產品相關訊息</h2>
+    <div class="products">
+      <div class="product-item">
+        <img src="https://picsum.photos/800/600" alt="">
+        <h3>MSI GTX4060</h3>
+        <p>
+          Lorem, ipsum dolor.
+        </p>
+
+      </div>
+      <div class="product-item">
+        <img src="https://picsum.photos/800/500" alt="">
+        <h3>MSI GTX4060</h3>
+        <p>
+          Lorem, ipsum dolor.
+        </p>
+
+      </div>
+      <div class="product-item">
+        <img src="https://picsum.photos/700/600" alt="">
+        <h3>MSI GTX4060</h3>
+        <p>
+          Lorem, ipsum dolor.
+        </p>
+      </div>
+    </div>
+  </section>
+</main>
+<footer></footer>
+
+</body>
+</html>

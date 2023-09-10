@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+
+}
+nav {
+    width: 100%;
+    background-color: #fa0;
+    margin-inline: auto;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    /* 
+        start, center, end,
+        stretch, baseline
+    */
+    padding-inline:15px;
+}
+/* .container {
+    max-width: 1000px;
+    margin-inline: auto;
+    display: flex;
+    height: 70px;
+    align-items: center;
+} */
+.nav-menu {
+    margin-left: auto;
+    display: flex;
+    gap:15px;
+}
+.nav-link {
+    font-size: 14px;
+}
+nav a {
+    color: #000;
+    text-decoration: none;
+}
