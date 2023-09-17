@@ -73,9 +73,12 @@ header {
     padding: 70px;
     /* background-color: #098; */
 }
-.about-avatar img {
+.about-avatar-img {
+    background-color: #fa0;
     border-radius: 50%;
+    overflow: hidden;
 
+    aspect-ratio: 1 / 1;
 }
 .about-info {
     width: 60%;
