@@ -70,7 +70,16 @@ header {
 /* about */
 .about-avatar {
     width: 40%;
+    padding: 70px;
+    /* background-color: #098; */
+}
+.about-avatar img {
+    border-radius: 50%;
+
 }
 .about-info {
     width: 60%;
+}
+#about .row {
+    align-items: center;
 }
