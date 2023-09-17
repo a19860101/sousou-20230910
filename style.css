@@ -8,6 +8,8 @@ body {
 }
 img {
     width: 100%;
+    display: block;
+    /* vertical-align: top */
 }
 nav {
     width: 100%;
