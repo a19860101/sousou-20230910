@@ -24,13 +24,13 @@ nav {
     */
     padding-inline:15px;
 }
-/* .container {
+.container {
     max-width: 1000px;
     margin-inline: auto;
+}
+.row {
     display: flex;
-    height: 70px;
-    align-items: center;
-} */
+}
 .nav-menu {
     margin-left: auto;
     display: flex;
@@ -60,10 +60,17 @@ header {
     /* overflow: hidden; */
     background-color: #ff7f7f;
 
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 21 / 9;
 
 }
 .object-cover {
     height: 100%;
     object-fit: cover;
+}
+/* about */
+.about-avatar {
+    width: 40%;
+}
+.about-info {
+    width: 60%;
 }
