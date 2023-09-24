@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            display: flex;
+            flex-wrap: wrap;
+            margin-inline: auto;
+        }
+        .col {
+            width: 100%;
+            padding: 15px;
+        }
+        @media(min-width: 768px){
+            .col {
+                width: 50%;
+            }
+        }
+        @media(min-width: 1200px){
+            .col {
+                width: 25%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container bg-amber-300 mx-auto flex flex-wrap">
+        <div class="xl:w-1/4 md:w-1/2 w-full p-4">
+            <h2 class="text-2xl text-sky-700 font-bold">title</h2>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est eum impedit porro sint, labore at earum, praesentium repellat eveniet sequi nobis dolores optio in veritatis ratione odio vitae. Porro, laboriosam.
+            </p>
+        </div>
+        <div class="xl:w-1/4 md:w-1/2 w-full p-4">
+            <h2 class="text-2xl text-sky-700 font-bold">title</h2>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est eum impedit porro sint, labore at earum, praesentium repellat eveniet sequi nobis dolores optio in veritatis ratione odio vitae. Porro, laboriosam.
+            </p>
+        </div>
+        <div class="xl:w-1/4 md:w-1/2 w-full p-4">
+            <h2 class="text-2xl text-sky-700 font-bold">title</h2>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est eum impedit porro sint, labore at earum, praesentium repellat eveniet sequi nobis dolores optio in veritatis ratione odio vitae. Porro, laboriosam.
+            </p>
+        </div>
+        <div class="xl:w-1/4 md:w-1/2 w-full p-4">
+            <h2 class="text-2xl text-sky-700 font-bold">title</h2>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est eum impedit porro sint, labore at earum, praesentium repellat eveniet sequi nobis dolores optio in veritatis ratione odio vitae. Porro, laboriosam.
+            </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="col">
+            <h2>title</h2>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est eum impedit porro sint, labore at earum, praesentium repellat eveniet sequi nobis dolores optio in veritatis ratione odio vitae. Porro, laboriosam.
+            </p>
+        </div>
+        <div class="col">
+            <h2>title</h2>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est eum impedit porro sint, labore at earum, praesentium repellat eveniet sequi nobis dolores optio in veritatis ratione odio vitae. Porro, laboriosam.
+            </p>
+        </div>
+        <div class="col">
+            <h2>title</h2>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est eum impedit porro sint, labore at earum, praesentium repellat eveniet sequi nobis dolores optio in veritatis ratione odio vitae. Porro, laboriosam.
+            </p>
+        </div>
+        <div class="col">
+            <h2>title</h2>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est eum impedit porro sint, labore at earum, praesentium repellat eveniet sequi nobis dolores optio in veritatis ratione odio vitae. Porro, laboriosam.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
