@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .my-shadow {
+            box-shadow: 30px 15px 0 0 #222;
+            /* x y 強度 擴散 色彩 */
+        }
+        section:nth-of-type(odd) .w-1\\2:first-of-type {
+            order:2;
+        }
+        section:nth-of-type(odd) .w-1\\2:last-of-type {
+            order:1;
+        }
+    </style>
 </head>
 <body>
     <nav class="border-b-2 border-zinc-900">
@@ -21,7 +33,7 @@
         <div class="container mx-auto flex flex-wrap items-center">
             <div class="w-1/2 p-8">
                 <div>
-                    <img src="https://picsum.photos/id/99/600" alt="" class="rounded-xl">
+                    <img src="https://picsum.photos/id/99/600" alt="" class="rounded-xl my-shadow border-4 border-red-400">
                 </div>
             </div>
             <div class="w-1/2 p-8">
@@ -34,5 +46,53 @@
             </div>
         </div>
     </header>
+    <section class="border-b-2 border-zinc-500 py-16">
+        <div class="container mx-auto flex items-center">
+            <div class="w-1/2 space-y-8 p-8">
+                <h3 class="text-3xl font-bold">作品標題</h3>
+                <p>
+                    給我家庭友情連結站長先後都不藍色轉換反映返回努力衝突，歌手以外大量對面面前他們的你就提交期限基本上，已有絶對簡單面積對你無派呵呵，完美地位來的電源整個完整女子雖然生命穩定，公里社會，周邊熱線，女士高中圖片主管發貼你知道的說日記，娛樂笑容受到詳細訊息一天要。
+                </p>
+                <a href="#" class="inline-block px-10 py-2 border border-zinc-800 rounded-full">檢視</a>
+            </div>
+            <div class="w-1/2 p-8">
+                <div>
+                    <img src="https://picsum.photos/id/99/600" alt="" class="rounded-xl my-shadow border-4 border-red-400">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="border-b-2 border-zinc-500 py-16">
+        <div class="container mx-auto flex items-center">
+            <div class="w-1/2 space-y-8 p-8 order-2">
+                <h3 class="text-3xl font-bold">作品標題</h3>
+                <p>
+                    給我家庭友情連結站長先後都不藍色轉換反映返回努力衝突，歌手以外大量對面面前他們的你就提交期限基本上，已有絶對簡單面積對你無派呵呵，完美地位來的電源整個完整女子雖然生命穩定，公里社會，周邊熱線，女士高中圖片主管發貼你知道的說日記，娛樂笑容受到詳細訊息一天要。
+                </p>
+                <a href="#" class="inline-block px-10 py-2 border border-zinc-800 rounded-full">檢視</a>
+            </div>
+            <div class="w-1/2 p-8 order-1">
+                <div>
+                    <img src="https://picsum.photos/id/99/600" alt="" class="rounded-xl my-shadow border-4 border-red-400">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="border-b-2 border-zinc-500 py-16">
+        <div class="container mx-auto flex items-center">
+            <div class="w-1/2 space-y-8 p-8">
+                <h3 class="text-3xl font-bold">作品標題</h3>
+                <p>
+                    給我家庭友情連結站長先後都不藍色轉換反映返回努力衝突，歌手以外大量對面面前他們的你就提交期限基本上，已有絶對簡單面積對你無派呵呵，完美地位來的電源整個完整女子雖然生命穩定，公里社會，周邊熱線，女士高中圖片主管發貼你知道的說日記，娛樂笑容受到詳細訊息一天要。
+                </p>
+                <a href="#" class="inline-block px-10 py-2 border border-zinc-800 rounded-full">檢視</a>
+            </div>
+            <div class="w-1/2 p-8">
+                <div>
+                    <img src="https://picsum.photos/id/99/600" alt="" class="rounded-xl my-shadow border-4 border-red-400">
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
