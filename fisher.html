@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style type="text/tailwindcss">
+        .my-container {
+            @apply container mx-auto flex flex-wrap
+        }
+        .cover {
+            @apply w-full h-full object-cover
+        }
+        header {
+            background-image: url('https://picsum.photos/id/41/1600/900');
+        }
+    </style>
+</head>
+<body>
+    <nav class="flex flex-wrap bg-teal-600 items-center px-4 py-2">
+        <a href="#" class="font-bold">Logo | Portfolio</a>
+        <div class="ml-auto rounded-full bg-amber-300 flex p-2">
+            <a href="#" class="rounded-full bg-amber-600 px-5 py-2">首頁</a>
+            <a href="#" class="rounded-full px-5 py-2">關於我</a>
+            <a href="#" class="rounded-full px-5 py-2">作品集</a>
+            <a href="#" class="rounded-full px-5 py-2">聯繫方式</a>
+        </div>
+    </nav>
+    <header class="h-[600px] bg-cover bg-center bg-no-repeat flex justify-center items-center">
+        <h1 class="text-6xl font-bold text-center">Hello <br> This is Fisher</h1>
+    </header>
+    <!-- <header class="relative">
+        <img src="https://picsum.photos/id/46/1600/900" alt="">
+        <h1 class="text-6xl font-bold text-center absolute inset-0 m-auto w-1/2 h-fit">Hello <br> This is Fisher</h1>
+    </header> -->
+</body>
+</html>
