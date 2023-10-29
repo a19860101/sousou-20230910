@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style type="text/tailwindcss">
+        .my-container {
+            @apply container mx-auto flex flex-wrap
+        }
+        .cover {
+            @apply w-full h-full object-cover
+        }
+        header {
+            background-image: url('https://picsum.photos/id/62/1600/900');
+        }
+    </style>
+</head>
+<body>
+    <nav class="bg-sky-200 py-4">
+        <div class="my-container">
+            <a href="#">
+                <!-- <img src="" alt="公司名稱"> -->
+                LOGO
+            </a>
+            <div class="ml-auto space-x-6">
+                <a href="#">Home</a>
+                <a href="#">Project</a>
+                <a href="#">About</a>
+            </div>
+        </div>
+    </nav>
+    <header class="w-full aspect-[21/9] bg-no-repeate bg-cover bg-center"></header>
+    <section class="py-16">
+        <div class="my-container">
+            <div class="w-full">
+                <h2 class="text-3xl font-bold mb-4">Skills</h2>
+            </div>
+            <div class="w-1/5 px-6 text-center space-y-4">
+                <div class="rounded-full overflow-hidden">
+                    <img src="https://picsum.photos/id/87/300" alt="">
+                </div>
+                <div>
+                    <div>Photoshop</div>
+                </div>
+            </div>
+            <div class="w-1/5 px-6 text-center space-y-4">
+                <div class="rounded-full overflow-hidden">
+                    <img src="https://picsum.photos/id/87/300" alt="">
+                </div>
+                <div>
+                    <div>Photoshop</div>
+                </div>
+            </div>
+            <div class="w-1/5 px-6 text-center space-y-4">
+                <div class="rounded-full overflow-hidden">
+                    <img src="https://picsum.photos/id/87/300" alt="">
+                </div>
+                <div>
+                    <div>Photoshop</div>
+                </div>
+            </div>
+            <div class="w-1/5 px-6 text-center space-y-4">
+                <div class="rounded-full overflow-hidden">
+                    <img src="https://picsum.photos/id/87/300" alt="">
+                </div>
+                <div>
+                    <div>Photoshop</div>
+                </div>
+            </div>
+            <div class="w-1/5 px-6 text-center space-y-4">
+                <div class="rounded-full overflow-hidden">
+                    <img src="https://picsum.photos/id/87/300" alt="">
+                </div>
+                <div>
+                    <div>Photoshop</div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
